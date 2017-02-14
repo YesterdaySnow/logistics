@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default" namespace="/" extends="struts-default">
+		<action name="queryOrderform" class="action.OrderformAction" method="queryOrderform">
+			<result name="success">order/orderList.jsp</result>
+			<result name="input">error.jsp</result>
+		</action>
+		<action name="manualAction" class="action.ManaualAction">
+			<result name="success">order/manual.jsp</result>
+			<result name="fail">error.jsp</result>
+		</action>
+	</package>
+</struts>    
