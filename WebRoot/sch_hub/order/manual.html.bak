@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>手动调度订单 - 物流管理系统</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<style media="all" type="text/css">@import "../../style/all.css";</style>
+</head>
+<body style="background: none">
+	<div class="top-bar">
+		
+		<h1>手动调度订单</h1>
+		<div class="breadcrumbs">
+		    <div class="button-bar">
+				<input type="button" name="Submit" value="返回" onclick='javascript:history.back();' class="button"/>
+				<input type="button" name="Submit" value="调度" onclick="javascript:history.back();window.open('harmonic.html');window.open('task/taskbar.html')" class="button"/>
+			</div>
+			<a href="../../index.html" target="_top">首页</a> /
+			<a href="../index.html" target="_top">调度中心</a> /
+			手动调度
+		</div>
+	</div>
+	<div class='select-bar'></div>
+		<div class="table" align='center'>
+			 <table class="listing" style="width:400px;">
+				<tr>
+					<th class='first'>订单号</th>
+					<th class='last'>投递地址</th>
+				</tr>
+				<tr>
+					<td>dd200908086252</td>
+					<td>英国1</td>
+				</tr>
+				<tr>
+					<td>dd200908031252</td>
+					<td>英国2</td>
+				</tr>
+				<tr>
+					<td>dd200908358252</td>
+					<td>英国3</td>
+				</tr>
+				<tr>
+					<td>dd200158031252</td>
+					<td>英国4</td>
+				</tr>
+				<tr>
+					<td>dd200248031252</td>
+					<td>英国5</td>
+				</tr>
+				<tr>
+					<td>dd200908241252</td>
+					<td>英国6</td>
+				</tr>
+			</table>
+			<center>
+					<strong>统一分配投递分站:</strong>
+					<select style='width:auto'>
+					  <option>www1</option>
+					  <option>www2</option>
+					  <option>www3</option>
+					  <option>www4</option>
+					  <option>www5</option>
+					  <option>www6</option>
+				</select>
+			  </center>
+		</div>
+	</div>
+</body>
+</html>

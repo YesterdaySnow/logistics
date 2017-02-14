@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<style media="all" type="text/css">@import "../../style/all.css";</style>
+	<script type="text/javascript" src='../../script/common.js'></script>
+</head>
+<body style="background: none">
+		<br>
+		<br>
+		<h2 align='center'>商品调拨单</h2>
+<br>
+<table width="90%">
+		<tr>
+			<td  align="center" >操作员：李亚会</td>
+			<td align="center" > 打印时间 ：2009-08-01 16:22:22</td>
+		</tr>
+	</table>
+		</div>
+
+	<!-- /* 调拨单表（调拨单号id，订单号id_FK，出库库房id_FK，入库库房id_FK，要求出库日期）； */ -->
+			<table class="select-table">
+				<tr>
+				    <th>调拨单号</th>
+					<td >db2009080141256</td>
+					<th>订单号(原订单号)</th>
+					<td>dd200908031252(无)</td>
+				</tr>
+				<tr>
+					<th>要求出库日期</th>
+					<td>2008-8-20 </td>
+					<th>投递分站</th>
+					<td >www1</td>
+				</tr>
+			</table>
+			<br><br>
+			<div class="select-bar"/>
+			<center><h4 align='center'>调拨商品明细</h4>
+			<table class="listing" cellpadding="0" cellspacing="0" align='center'>
+				<tr>
+					<th class='first'>商品Id</th>
+					<th>商品名称</th>
+					<th class='last'>数量</th>
+				</tr>
+				<tr>
+					<td class='first'>sp200908031523</td>
+					<td>金龙鱼食用油</th>
+					<td>5瓶</td>
+				</tr>
+				<tr class="bg">
+					<td class='first'>sp200908031524</td>
+					<td>百威啤酒</th>
+					<td>5箱</td>
+				</tr>
+				<tr>
+					<td class='first'>sp200908031525</td>
+					<td>佳佳酱油</td>
+					<td>一打</td>
+				</tr>
+			</tabl>
+			
+</body>
+</html>

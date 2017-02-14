@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>详细订单 - 订单信息 - 物流管理系统</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<style media="all" type="text/css">@import "../../style/all.css";</style>
+	<script type="text/javascript" src='../../script/common.js'></script>
+</head>
+<body style="background: none">
+	<div class="top-bar">
+		
+		<h1>订单信息 &gt; 详细订单</h1>
+		<div class="breadcrumbs">
+			<div class="button-bar">
+		         <input type="button" name="Submit" value="返回" onclick='javascript:history.back();' class="button"/>
+	        </div>
+			<a href="../../index.html" target="_top">首页</a> /
+			<a href="../index.html" target="_top">调度中心</a> /
+			详细订单
+		</div>
+	</div>
+
+		<div class="select-bar">
+		<!-- 订单表（订单号id，客户id_FK，价值总额，投递分站id_FK，客户所在区域，期望投递日期，订单产生日期，*/
+rem /*         订单类型id(属性表)，付款方式id(属性表)，投递地址，接收人，电话，邮编，订单处理方式id(属性表)，订单状态id(属性表)，
+rem /*		   是否发票(0/1)，原订单号，操作员id_FK，备注 （【退货/换货/退订】原因））；*/ -->
+			<table class="select-table">
+				<tr>
+					<th>订单号(原订单号)</th>
+					<td>dd200908031252(无)</td>
+				    <th>订单类型</th>
+					<td >退货</td>
+				</tr>
+				<tr>
+					<th>期望投递日期</th>
+					<td>2008-8-20 </td>
+					<th>订单产生日期</th>
+					<td>2008-8-8 12:25:36</td>
+				</tr>
+				<tr>
+				    <th>订单状态</th>
+					<td >可分配</td>
+					<th>订单处理方式</th>
+					<td >有货全送</td>
+				</tr>
+				<tr>
+				    <th>投递分站</th>
+					<td colspan='3'>www1</td>
+				</tr>
+			</table>
+			<br>
+			<table class="select-table">
+				<tr>
+					<th>客户Id</th>
+					<td>123456</td>
+					<th>客户</th>
+					<td>黎明</td>
+				</tr>
+				<tr>
+					<th>客户所在区域</th>
+					<td>北京中山区</td>
+					<th>投递地址</th>
+					<td>北京中山区</td>
+				</tr>
+				<tr>
+				    <th>接收人</th>
+					<td >黎明</td>
+					<th>电话</th>
+					<td >15874925452</td>
+				</tr>
+				<tr>
+				    <th>邮编</th>
+					<td colspan='3'>100110</td>
+				</tr>
+			</table>
+			<br>
+			<table class="select-table">
+				<tr>
+				    <th>操作员Id</th>
+					<td >119</td>
+					<th>操作员</th>
+					<td >李亚会</td>
+				</tr>
+				<tr>
+					<th>价值总额</th>
+					<td>5000元</td>
+					<th>付款方式</th>
+					<td >刷卡</td>
+				</tr>
+				<tr>
+					<th>是否发票</th>
+					<td >是</td>
+					<th>备注</th>
+					<td>
+					我要退货~~~~~~~~~
+					</td>
+				</tr>
+			</table>
+		</div>
+			<span style='background-color:#f70;font-size:17px;'class="first">订单明细</span>
+			<div class="select-bar"/>
+			<!-- 订单号id,商品id』【复合pk】，数量，备注,是否已与供应商结算(0/1)，与供应商结算日期） -->
+		<div class="table">
+				<table class="listing" cellpadding="0" cellspacing="0">
+				<tr>
+					<th class='first'>商品Id</th>
+					<th>商品名称</th>
+					<th>数量</th>
+					<th>备注</th>
+				    <th>是否已与供应商结算</th>
+					<th class='last'>与供应商结算日期</th>
+				</tr>
+				<tr>
+					<td>sp200908031523</td>
+					<td>金龙鱼食用油</th>
+					<td>5瓶</td>
+					<td>退货成功</td>
+					<td >是</td>
+					<td>2008-8-20 </td>
+				</tr>
+				<tr>
+					<td>sp200908031524</td>
+					<td>百威啤酒</th>
+					<td>5箱</td>
+					<td>退货成功</td>
+					<td >否</td>
+					<td>2008-4-20 </td>
+				</tr>
+				<tr>
+					<td>sp200908031525</td>
+					<td>佳佳酱油</td>
+					<td>一打</td>
+					<td>未完成</td>
+					<td >是</td>
+					<td>2009-8-20 </td>
+				</tr>
+			</table>
+			<div class="pager">
+				共59条记录 每页<input type="text" class="text" size="2" value="10"/>条
+				第1页/共5页
+				<a href="#">第一页</a>
+				<a href="#">上一页</a>
+				<a href="#">下一页</a>
+				<a href="#">最后一页</a>
+				转到<input type="text" class="text" size="1" value="1"/>页
+				<input type="button" class="button" onclick="" value="GO"/>
+			</div>
+		</div>
+</body>
+</html>
